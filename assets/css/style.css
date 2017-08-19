@@ -1,3 +1,5 @@
+/* ======GENERAL FONT STUFF FOR ALL HTML======= */
+
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -11,6 +13,11 @@ h1, h2, footer{
 h1{
     font-weight: bold;
     font-size: 42px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 28px;
 }
 
 p{
@@ -47,7 +54,7 @@ header{
     display: block;
     float: left;
     position: relative;
-    padding: 0 25px;
+    padding: 25px;
 }
 
 .home a:hover{
@@ -66,6 +73,7 @@ nav{
     font-family: 'Raleway', sans-serif;
     word-spacing: 16px;
     font-weight: bold;
+    padding: 10px;
 }
 
 nav a:hover{
@@ -86,12 +94,13 @@ nav ul li a{
     text-align: center;
 }
 
-/* ======CONTENTS FOR ALL HTML======= */
+/* ======BODY - CONTENTS FOR ALL HTML======= */
 .contents{
     width: 960px;
     margin: 0 auto;
     display: hidden;
     margin-top: 20px;
+    margin-bottom:100px;
     overflow: auto;
 }
 
@@ -101,15 +110,17 @@ nav ul li a{
     float: left;
     width: 580px;
     padding: 25px;
-    box-shadow:  0 0 10px #888;
+    box-shadow: 0 0 10px #000;
 }
 
 #profilepic1{
-    width: 280px;
+    width: 300px;
     height: auto;
     float:left;
     margin-right: 10px;
 }
+
+
 
 .side-bar{
     background-color: white;
@@ -118,7 +129,7 @@ nav ul li a{
     display: block;
     float: right;
     position: relative;
-    box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #000;
 }
 
 
@@ -182,13 +193,40 @@ input[type=submit]:hover {
 
 
 /* ======PORTFOLIO PAGE======= */
+#adobe-ps{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#adobe-ai{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#drawing{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#painting{
+    width: 120px;
+    height: auto;
+    float:left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
 
 
 
 
-
-
-
+/* ======FOOTER FOR ALL HTML======= */
 footer{
     position: fixed;
     width: 100%;
